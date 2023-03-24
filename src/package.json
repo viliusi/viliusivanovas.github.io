@@ -4,13 +4,11 @@
   "description": "This is the GitHub repository for my GitHub page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.0.2"
-  },
   "devDependencies": {
     "ts-node": "^10.9.1"
   }

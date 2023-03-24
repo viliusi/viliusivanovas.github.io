@@ -14,10 +14,13 @@
         "noFallthroughCasesInSwitch": true,
         "module": "commonjs",
         "outDir": "dist",
-        "rootDir": "src"
     },
     "include": [
-        "src/**/*"
+        //"src/**/*"
+        "src/*.ts"
+    ],
+    "files": [
+        "ts/index.ts"
     ],
     "exclude": [
         "node_modules"
