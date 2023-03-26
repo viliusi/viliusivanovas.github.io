@@ -1,24 +1,35 @@
 @font-face {
   font-family: "Roboto";
-  src: url("srchtmlRobotoRoboto-Black.ttf");
-  src: url("srchtmlRobotoRoboto-BlackItalic.ttf") format("embedded-opentype"), url("srchtmlRobotoRoboto-Bold.ttf") format("woff2"), url("srchtmlRobotoRoboto-BoldItalic.ttf") format("woff"), url("srchtmlRobotoRoboto-Italic.ttf") format("truetype");
+  src: url('src\html\Roboto\Roboto-BlackItalic.ttf') format('Black Italic'),
+       url('src\html\Roboto\Roboto-Bold.ttf') format('Bold'),
+       url('src\html\Roboto\Roboto-BoldItalic.ttf') format('Bold Italic'),
+       url('src\html\Roboto\Roboto-Italic.ttf') format('Italic');
+       url('src\html\Roboto\Roboto-Light.ttf') format('light');
 }
+
+$color-1: #6495ED;
+$color-2: #70E4EF;
+$color-3: #272727;
+$color-4: #F2E2BA;
+$color-5: #fbf7ef;
+
+// USAGE
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif; 
   padding: 25px;
-  background-color: #fbf7ef;
-  color: #272727;
+  background-color: $color-5;
+  color: $color-3;
   font-size: 25px;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #navbar {
   width: 70%;
   min-height: 10%;
-  background-color: #fbf7ef;
+  background-color: $color-5;
   margin-left: auto;
   margin-right: auto;
 }
@@ -26,31 +37,31 @@ h1 {
 #top {
   width: 100%;
   height: 2%;
-  background-color: #6495ED;
+  background-color: $color-1;
   background-position: top;
 }
 
 #menu {
   width: 100%;
   height: 1%;
-  background-color: #70E4EF;
+  background-color: $color-2;
   text-align: center;
 }
 
 #content {
   width: 100%;
-  background-color: #fbf7ef;
+  background-color: $color-5;
 }
 
 /* unvisited link */
 a:link {
-  color: #272727;
+  color: $color-3;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #272727;
+  color: $color-3;
 }
 
 /* mouse over link */
@@ -70,7 +81,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #70E4EF;
+  background-color: $color-2;
 }
 
 li {
@@ -92,4 +103,4 @@ li a:hover:not(.active) {
 li a.active {
   color: white;
   background-color: #ee4444;
-}/*# sourceMappingURL=style.css.map */
+}
