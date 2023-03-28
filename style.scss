@@ -1,18 +1,80 @@
-/*@font-face {
-  font-family: "Roboto";
-  src: url('src\html\Roboto\Roboto-BlackItalic.ttf') format('Black Italic'),
-       url('src\html\Roboto\Roboto-Bold.ttf') format('Bold'),
-       url('src\html\Roboto\Roboto-BoldItalic.ttf') format('Bold Italic'),
-       url('src\html\Roboto\Roboto-Italic.ttf') format('Italic'),
-       url('src\html\Roboto\Roboto-Light.ttf') format('light'),
-       url('src\html\Roboto\Roboto-LightItalic.ttf') format('light Italic'),
-       url('src\html\Roboto\Roboto-Medium.ttf') format('medium'),
-       url('src\html\Roboto\Roboto-MediumItalic.ttf') format('medium Italic'),
-       url('src\html\Roboto\Roboto-Regular.ttf') format('regular'),
-       url('src\html\Roboto\Roboto-Thin.ttf') format('thin'),
-       url('src\html\Roboto\Roboto-ThinItalic.ttf') format('thin Italic'),
-       url('src\html\Roboto\Roboto-Black.ttf') format('Black');
-}*/
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(src\Roboto\Roboto-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+// VARIABLES
 
 $color-1: #6495ED;
 $color-2: #70E4EF;
@@ -23,21 +85,22 @@ $color-6: #F5F5F5;
 
 // USAGE
 body {
-  font-family: 'Roboto', Arial, sans-serif; 
+  font-family: 'Roboto';
   padding: 25px;
-  background-color: $color-5;
+  background-color: $color-6;
   color: $color-3;
   font-size: 25px;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif, serif;
+  font-weight: 900;
 }
 
 #navbar {
   width: 70%;
   min-height: 10%;
-  background-color: $color-5;
+  background-color: $color-6;
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,7 +121,7 @@ h1 {
 
 #content {
   width: 100%;
-  background-color: $color-5;
+  background-color: $color-6;
 }
 
 /* unvisited link */

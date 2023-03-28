@@ -1,24 +1,84 @@
 @font-face {
-  font-family: "Roboto";
-  src: url("srchtmlRobotoRoboto-Black.ttf");
-  src: url("srchtmlRobotoRoboto-BlackItalic.ttf") format("embedded-opentype"), url("srchtmlRobotoRoboto-Bold.ttf") format("woff2"), url("srchtmlRobotoRoboto-BoldItalic.ttf") format("woff"), url("srchtmlRobotoRoboto-Italic.ttf") format("truetype");
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Italic.ttf);
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-Thin.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(srcRobotoRoboto-ThinItalic.ttf);
+  font-weight: 100;
+  font-style: italic;
 }
 body {
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto";
   padding: 25px;
-  background-color: #fbf7ef;
+  background-color: #F5F5F5;
   color: #272727;
   font-size: 25px;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif, serif;
+  font-weight: 900;
 }
 
 #navbar {
   width: 70%;
   min-height: 10%;
-  background-color: #fbf7ef;
+  background-color: #F5F5F5;
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,7 +99,7 @@ h1 {
 
 #content {
   width: 100%;
-  background-color: #fbf7ef;
+  background-color: #F5F5F5;
 }
 
 /* unvisited link */
