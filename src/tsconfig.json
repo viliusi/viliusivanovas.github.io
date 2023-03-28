@@ -19,7 +19,7 @@
         "src/scripts/"
     ],
     "files": [
-        "index.ts"
+        "scripts/test.ts", "scripts/indexDecorations.ts"
     ],
     "exclude": [
         "node_modules"

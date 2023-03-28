@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@snowpack/plugin-typescript": "^1.2.1",
+    "react-awesome-shapes": "^0.1.12",
     "snowpack": "^3.2.2",
     "typescript": "^5.0.2"
   }
