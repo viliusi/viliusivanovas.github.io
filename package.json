@@ -2,7 +2,7 @@
   "name": "viliusivanovas.github.io",
   "version": "1.0.0",
   "description": "This is the GitHub repository for my GitHub page",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build"
@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "snowpack": "^3.8.8"
   }
 }

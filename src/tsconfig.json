@@ -20,7 +20,7 @@
         "src/*.ts"
     ],
     "files": [
-        "ts/index.ts"
+        "index.ts"
     ],
     "exclude": [
         "node_modules"
