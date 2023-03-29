@@ -10,65 +10,76 @@
 
 </html>
 <title>My first GitHub Page</title>
-<div>
-    <p>
-        If you are looking for a specific thing you can just jump to it using the menu button here, else you can also
-        scroll down and be guided by the page
-    </p>
-</div>
 </head>
 
-
-
 <body>
-    <div class="square1">
+    <div id="structure"
+        style="position: absolute; height: 100vh; width: 100vw; top: 0; left: 0; margin-top: 0; z-index: 0; padding: 5%; background-color: #272727;">
+        <div class="squares">
 
-        <canvas height="200"></canvas>
+            <canvas id="square1"></canvas>
 
-        <script src="src/scripts/indexDecorations.js"></script>
+            <script src="src/scripts/indexDecorations.js"></script>
 
+        </div>
+        <div id="introduction" style="height: 100vh; width: 70vw;">
+
+            <h1 style="color: #fff; padding-top: 15%;">Hi,</h1>
+
+            <welcomeText style="color: #fff;"> Welcome to my website, this site will give you access to my portfolio, my
+                projects and my
+                interactive CV
+            </welcomeText>
+        </div>
     </div>
-    <div id="introduction">
-        <h1>Hi,</h1>
+    <div id="structure"
+        style="position: absolute; height: 100vh; width: 100vw; margin-top: 100vh; left: 0; z-index: 0; padding: 5%; background-color: #474747;">
+        <div>
+            <div id="about me" style="height: 100vh; width: 70vw;">
+                <h1 style="color: #fff; padding-top: 1%;">About me</h1>
 
-        
+                <p style="color: #fff;"> I'm Vilius Ivanovas, currently just a high school looking to explore some
+                    interests, but in the future I
+                    would like to make a living of one of these hobbies. </p>
 
-        <P> Welcome to my website, this site will give you access to my portfolio, my projects and my interactive CV
-        </P>
+                <text style="color: #fff;">Interesting facts about me: </text>
+
+                <ul style="color: #fff;">
+                    <li>Interested in language</li>
+                    <li>Programming</li>
+                    <li>Music</li>
+                </ul>
+
+                <a href="about.html"><button class="button button1">Check out my interactive CV, contacts and
+                        more</button></a>
+            </div>
+        </div>
     </div>
-    <div>
-        <h1>About me</h1>
+    <div id="structure"
+        style="position: absolute; height: 100vh; width: 100vw; margin-top: 200vh; left: 0; z-index: 0; padding: 5%; background-color: #141414;">
+        <div>
+            <div id="projects" style="height: 100vh; width: 70vw;">
+                <h1 style="color: #fff; padding-top: 15%;">Projects</h1>
 
-        <p> I'm Vilius Ivanovas, currently just a high school looking to explore some interests, but in the future I
-            would like to make a living of one of these hobbies. </p>
+                <p style="color: #fff;"> I have quite a few projects running all of the time, especially in programming.
+                    This page will put a
+                    focus
+                    on explaining and keeping tracks of those projects, plus maybe some that might become products in a
+                    different medium </p>
 
-        Interesting facts about me: </br>
+                <text style="color: #fff;">Things of note about my projects: </text>
 
-        <ul>
-            <li>Interested in language</li>
-            <li>Programming</li>
-            <li>Music</li>
-        </ul>
+                <ul style="color: #fff;">
+                    <li>C# is my main programming language</li>
+                    <li>Have played with Python, Lua, HTML, SCSS, TypeScript and a few others</li>
+                    <li>Looking into improving my programming skills further</li>
+                </ul>
 
-        <a href="about.html"><button class="button button1">Check out my interactive CV, contacts and more</button></a>
-
-    </div>
-    <div>
-        <h1>Projects</h1>
-
-        <p> I have quite a few projects running all of the time, especially in programming. This page will put a focus
-            on explaining and keeping tracks of those projects, plus maybe some that might become products in a
-            different medium </p>
-
-        Things of note about my projects: <br>
-
-        <ul>
-            <li>C# is my main programming language</li>
-            <li>Have played with Python, Lua, HTML, SCSS, TypeScript and a few others</li>
-            <li>Looking into improving my programming skills further</li>
-        </ul>
-
-        <a href="projects.html"><button class="button button2">Check out a deeper explanation of my projects, future plans and more</button></a>
+                <a href="projects.html"><button class="button button2">Check out a deeper explanation of my projects,
+                        future
+                        plans and more</button></a>
+            </div>
+        </div>
     </div>
 </body>
 
