@@ -41,16 +41,25 @@
 
 // VARIABLES
 
-$color-1: #6495ED;
-$color-2: #70E4EF;
+$color-1: #6495ed;
+$color-2: #70e4ef;
 $color-3: #272727;
-$color-4: #BFBCB0;
+$color-4: #bfbcb0;
 $color-5: #867595;
-$color-6: #F5F5F5;
+$color-6: #f5f5f5;
+
+div square1 {
+  position: absolute;
+  height: 250px;
+  max-height: 300px;
+  width: 300px;
+  z-index: 2;
+  background: rgb(4, 3, 75);
+}
 
 // USAGE
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   padding: 25px;
   background-color: $color-6;
   color: $color-3;
@@ -115,5 +124,9 @@ ul {
   list-style-type: circle;
 }
 
-.button1 {background-color: $color-2;}
-.button2 {background-color: $color-1;}
+.button1 {
+  background-color: $color-2;
+}
+.button2 {
+  background-color: $color-1;
+}
