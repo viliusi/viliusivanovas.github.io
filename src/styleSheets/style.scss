@@ -111,32 +111,9 @@ a:active {
   color: yellow;
 }
 
-/*This is for cool navbar*/
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: $color-2;
+  list-style-type: circle;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #f05d5e;
-}
-
-li a.active {
-  color: white;
-  background-color: #ee4444;
-}
+.button1 {background-color: $color-2;}
+.button2 {background-color: $color-1;}
