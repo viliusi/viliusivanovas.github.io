@@ -1,5 +1,5 @@
 // getting a reference to our HTML element
-var canvas = document.querySelector('canvas');
+var canvas = document.getElementById('canvas');
 spawnSquare();
 function spawnSquare() {
     if (canvas !== null) {
@@ -9,9 +9,9 @@ function spawnSquare() {
             canvas.height = innerHeight;
         });
         if (c !== null) {
-            c.fillStyle = 'rgba(100, 149, 237, 1)';
-            c.rect(100, 20, 150, 100);
-            c.fill();
+            c.beginPath();
+            c.rect(5, 5, 290, 140);
+            c.stroke();
         }
     }
 }
