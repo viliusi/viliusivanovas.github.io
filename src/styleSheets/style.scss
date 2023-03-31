@@ -126,31 +126,10 @@ h1 {
   background-color: $color-6;
 }
 
-/* unvisited link */
-a:link {
-  color: $color-3;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: $color-3;
-}
-
-/* mouse over link */
-a:hover {
-  color: gray;
-  text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-  color: yellow;
-}
-
 ul {
   list-style-type: circle;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 p {

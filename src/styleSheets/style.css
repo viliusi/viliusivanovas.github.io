@@ -109,31 +109,10 @@ h1 {
   background-color: #f5f5f5;
 }
 
-/* unvisited link */
-a:link {
-  color: #272727;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-  color: #272727;
-}
-
-/* mouse over link */
-a:hover {
-  color: gray;
-  text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-  color: yellow;
-}
-
 ul {
   list-style-type: circle;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 p {
